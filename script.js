@@ -111,6 +111,12 @@ copyBtn.addEventListener('click',() => {
 });
 
 
+//refresh 
+function refresh(){
+  window.location.reload("Refresh")
+}
+
+
 function shufflePassword(array){
     //fisher yates method
     for(let i = array.length - 1 ; i>0 ; i--){

@@ -13,6 +13,7 @@
     <div class="container">
 
         <h1 class="head">Password Generator</h1>
+       
         
         <div class="display-container"> 
 
@@ -46,12 +47,12 @@
 
             <div class="check">
                 <input type="checkbox" id="lowercase">
-                <label for="uppercase">Includes Lowercase letters</label>
+                <label for="uppercase1">Includes Lowercase letters</label>
             </div>
 
             <div class="check">
                 <input type="checkbox" id="numbers">
-                <label for="uppercase">Includes Numbers</label>
+                <label for="uppercase2">Includes Numbers</label>
             </div>
 
             <div class="check">
@@ -67,8 +68,15 @@
 
              <!-- generate pswd  -->
               <button class="generateButton">Generate Password</button>
-            
+              <div class="ref"> 
+                <button class="refresh" onClick="refresh(this)">Refresh</button>
+              </div>
+             
+              
+             
         </div>
+
+        
 
     </div>
 
